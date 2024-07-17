@@ -1,0 +1,22 @@
+{
+  "name": "f-try-catch",
+  "version": "1.0.0",
+  "description": "A clean type-safe replacement for using try-catch",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "npx tsup",
+    "test": "npx vitest"
+  },
+  "keywords": [],
+  "author": "Kais Radwan",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.6.13",
+    "@types/node": "^20.14.11",
+    "prettier": "^3.3.3",
+    "tsup": "^8.1.1",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  }
+}
